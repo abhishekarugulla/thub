@@ -1,0 +1,39 @@
+.abhi{
+    background-color: aqua;
+    font-size: 20px;
+    color: purple;
+}
+#ok{
+    background-color: blue;
+    font-size: 30px;
+    color: brown;
+
+}
+#bye{
+    background-color: aquamarine;
+    font-size: 40px;
+    color: blueviolet;
+}
+span{
+    background-color: aqua;
+    font-size: 40px;
+    border: 1px solid;
+    color: brown;
+
+}
+input[type="tel"]{
+    background-color: blue;
+    font-size: 20px;
+    color: blueviolet;
+}
+input[type="email"]{
+    background-color: blueviolet;
+    font-size: 20px;
+    color: red;
+}
+a[href]{
+    background-color: blue;
+    font-size: 20px;
+    color: palevioletred;
+
+}
