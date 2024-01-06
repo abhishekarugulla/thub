@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+        div{
+            border-radius: 5px;
+        }
+        body{
+            background-color: #DCF2F1;
+        }
+        nav{
+            text-align: center;
+            color: white;
+            background-color: #3559E0;
+            height: 75px;
+            padding-top: 10px;
+        }
+        #main{
+            display: inline;
+            height: 2000;width: 1200px;
+        }
+        #left{
+            width: 500px;
+            height: 500px;
+            padding-left: 100px;
+            float: left;
+        }
+        input{
+            color: white;
+            height: 45px;width: 450px;
+            font-size: large;
+            padding-left: 5px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        hr{
+            width: 200px;
+            margin-top: 30px;
+            float: left;
+            margin-right: 5px;
+            display: inline;
+        }
+        #pa{
+            padding-top: 20px;
+        }
+        #p{
+            display: inline;
+        }
+        #r{
+            float: right;
+            position: relative;
+            bottom: 57px;
+            right: 70px;
+        }
+        #blue{
+            background-color: #3559E0;
+        }
+        #grey{
+            background-color: grey;
+        }
+        #right{
+            height: 180px;
+            width: 800px;
+            float: right;
+            background-color: #3559E0;
+            margin-top: 50px;
+            color: white;
+            padding-left: 10px;
+            margin-right: 75px;
+        }
+        #top{
+            padding-left: 20px;
+            border-radius: 5px;
+        }
+        #one{
+            height: 180px;width: 500px;
+            float: left;
+        }
+        #two{
+            float: right;
+            margin-top: 30px;
+            margin-right: 30px;
+        }
+        #big{
+            height: 100px;width: 100px;
+            background-color: #3559E0;
+        }
+        h2{
+            display: block;
+            margin-top: 200px;
+            margin-left: 620px;
+            position: relative;
+            right: 620px;
+            color: black;
+        }
+        #block{
+            height: 250px;
+            width: 180px;
+            background-color: grey;
+            float: left;
+            margin-right: 15px;
+            padding-left: 5px;
+        }
+        img{
+            height: 50px;width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Weather Dashboard</h1>
+    </nav>
+    <div id="main">
+        <div id="left">
+            <h3>Enter a City Name</h3>
+            <input type="text" placeholder="E.g.New York,London,Tokyo">
+            <input type="button" value="Search" id="blue">
+            <div>
+                <hr>
+            </div>
+            <div id="pa">
+                <p id="p">or</p>
+            </div>
+            <div id="pa">
+                <hr id="r">
+            </div>
+            <input type="button" value="Use Current Location" id="grey">
+        </div>
+        <div id="right">
+            <div id="top">
+                <div id="one">
+                <h3>London (2023-06-19)</h3>
+                <p>Temperature 18.71<sup>o</sup>C</p>
+                <p>Wind:4.31 M/S</p>
+                <p>Humidity: 76%</p>
+                </div>
+                <div id="two">
+                    <img src="../images/sun1.img" id="big">
+                    <p>Moderate rain</p>
+                </div>
+            </div>
+            <h2>4-Day Forecast</h2>
+            <div id="block">
+                <p>(2023-06-20)</p>
+                <img src="../images/sun2.img"><rb></rb>
+                <p>Temp:17.64<sup>o</sup>C</p>
+                <p>wind:0.73M/S</p>
+                <p>Humidity:70%</p>
+            </div>
+            <div id="block">
+                <p>(2023-06-20)</p>
+                <img src="../images/sun3.img"><br>
+                <p>Temp:17.64<sup>o</sup>C</p>
+                <p>wind:0.73M/S</p>
+                <p>Humidity:70%</p>
+            </div>
+            <div id="block">
+                <p>(2023-06-20)</p>
+                <img src="../images/sun4.img"><br>
+                <p>Temp:17.64<sup>o</sup>C</p>
+                <p>wind:0.73M/S</p>
+                <p>Humidity:70%</p>
+            </div>
+            <div id="block">
+                <p>(2023-06-20)</p>
+                <img src="../images/sun5.img">
+                <p>Temp:17.64<sup>o</sup>C</p>
+                <p>wind:0.73M/S</p>
+                <p>Humidity:70%</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
